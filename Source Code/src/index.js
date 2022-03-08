@@ -7,5 +7,5 @@ const App = function () {
 
 ReactDom.render(
     < App />,
-
+    document.querySelector('#root')
 )
